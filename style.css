@@ -1,0 +1,72 @@
+
+body {
+  background-color: #A3D9C5;
+  font-family: 'Space Mono', monospace;
+  color: #0D0000;
+  font-size: 14px;
+  line-height: 1em;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h1, h2 {
+  font-family: 'BioRhyme', serif;
+  color: #125945;
+  font-size: 26px;
+}
+
+p {
+  color: #0D0000;
+}
+
+a {
+  color: #125945;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #BF1515;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #D9BE3B;
+  border: 2px;
+  border-radius: 5px;
+  box-shadow: #125945;
+}
+
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
